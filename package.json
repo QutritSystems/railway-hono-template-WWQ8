@@ -1,6 +1,10 @@
 {
   "name": "todo-app",
   "version": "1.0.0",
+  "type": "module",
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "scripts": {
     "dev": "tsx watch src/index.ts",
     "build": "tsc",
